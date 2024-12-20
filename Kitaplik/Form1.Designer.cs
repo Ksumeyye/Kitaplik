@@ -266,9 +266,9 @@
             this.label7.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.Location = new System.Drawing.Point(512, 162);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(111, 23);
+            this.label7.Size = new System.Drawing.Size(121, 23);
             this.label7.TabIndex = 19;
-            this.label7.Text = "Kitap Adı:";
+            this.label7.Text = "Kitap İsmi:";
             // 
             // BtnBul
             // 
@@ -321,6 +321,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Kitaplık";
             this.Load += new System.EventHandler(this.Form1_Load);
