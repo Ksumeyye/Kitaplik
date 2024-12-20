@@ -117,7 +117,7 @@ namespace Kitaplik
 
         private void BtnAra_Click(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("Select*From TblKitaplik where KitapAd like '%"+TxtKitapBul.Text+"%'", bgl.baglanti()); //like, sql ya da access de bizim istediğimiz bir arama alanı içerisinde sadece ilgili alanların olup olmadığına bakar.
+            SqlCommand komut = new SqlCommand("Select*From TblKitaplik where KitapAd like '%"+TxtKitapBul.Text+"%'", bgl.baglanti()); //-like, sql ya da access de bizim istediğimiz bir arama alanı içerisinde sadece ilgili alanların olup olmadığına bakar.
             //%a% içerisinde a geçip geçemeyenleri bulur.
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(komut);
