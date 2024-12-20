@@ -1,6 +1,6 @@
 # Kitaplık
 # (Kitap Sistemi)
-C# programlama dilinde, WinFormApp (.Net Framework) ve MSSQL Veritabanı kullanılarak oluşturduğum projemdir. <br/>
+C# programlama dilinde, WinFormApp (.Net Framework) ADO.NET veri sağlayıcıları ve MSSQL Veritabanı kullanılarak oluşturduğum projemdir. <br/>
 Tek bir ekran bulunur. <br/>
 Bu ekranla;<br/>
 Sisteme kitap ekleyebiliriz.<br/>
